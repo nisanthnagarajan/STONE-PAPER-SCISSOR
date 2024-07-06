@@ -1,0 +1,49 @@
+body,
+main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-size: 48px;
+
+  margin: 0;
+}
+.wel {
+  font-family: "Lemon", serif;
+  font-family: 40px;
+}
+.but {
+  padding: 25px 30px;
+  font-size: 70px;
+  border: solid wheat 2px;
+  border-radius: 40px;
+  background-color: #02d8e9;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.but:hover {
+  background-color: #0c71e0;
+}
+.but:active {
+  background-color: #0859c6;
+}
+p {
+  font-size: 25px;
+}
+
+.green-bgc {
+  background-color: green;
+}
+.red-bgc {
+  background-color: red;
+}
